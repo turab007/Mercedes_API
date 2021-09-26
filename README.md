@@ -1,3 +1,20 @@
+# Instructions to Run
+
+Clone the Repository
+Go to backend folder - cd backend
+run npm install
+run npm run seed
+run npm run start
+
+open new terminal
+Go to frontend folder - cd frontend
+run npm install
+run ng serve
+
+Application should be running at `http://localhost:4200/`
+
+
+
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
