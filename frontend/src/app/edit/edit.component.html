@@ -1,0 +1,65 @@
+<div>
+    <form [formGroup]="vehicleForm" >
+
+        <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='licenseplate'>
+          </mat-form-field>
+          
+        <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='salesdesignation'>
+          </mat-form-field>
+          
+        <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='finorvin'>
+          </mat-form-field>
+          
+          <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='nickname'>
+          </mat-form-field>
+            
+          <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='modelyear'>
+          </mat-form-field>
+            
+          <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='colorname'>
+          </mat-form-field>
+            
+          <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='fueltype'>
+          </mat-form-field>
+                    
+          <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='powerhp'>
+          </mat-form-field>
+                    
+          <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='powerkw'>
+          </mat-form-field>
+                    
+          <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='numberofdoors'>
+          </mat-form-field>
+                    
+          <mat-form-field class="example-form-field">
+            <mat-label>License Plate</mat-label>
+            <input matInput type="text" formControlName='numberofseats'>
+          </mat-form-field>
+          
+    </form>
+
+    <div mat-dialog-actions>
+        <button mat-button  (click)="dialogRef.close(false)" >Cancel</button>
+        <button mat-raised-button color="primary" (click)="close()">Save</button>
+      </div>
+</div>

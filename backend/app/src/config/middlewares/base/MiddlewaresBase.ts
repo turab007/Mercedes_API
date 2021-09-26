@@ -7,7 +7,6 @@ import Constants = require('../../../config/constants/Constants');
 // import RBAC = require("../../../controllers/RBAC");
 import Session = require("../../../controllers/Session");
 
-import { MethodOverride } from "./../MethodOverride";
 import { BaseRoutes } from "./../../routes/base/BaseRoutes";
 import { getUserPayLoad } from '../../../helpers/User.Helper';
 import UserModel = require("./../../../model/UserModel");

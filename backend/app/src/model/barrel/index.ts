@@ -4,7 +4,6 @@
 
 export * from "./../../model/MailServerModel";
 
-export * from "./../../model/EmployeeModel";
 
 export * from "./../../model/VehicleModel"
 

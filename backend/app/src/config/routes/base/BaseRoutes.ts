@@ -1,5 +1,5 @@
 import * as express from "express";
-import {    UserRoutes, LoginRoutes, EmployeeRoutes, VehicleRoutes
+import {    UserRoutes, LoginRoutes, VehicleRoutes
 } from "./";
 
 import fs = require("fs")
@@ -20,7 +20,7 @@ class BaseRoutes {
         app.use("/", new LoginRoutes().routes);
         app.use("/", new LoginRoutes().routes);
         app.use("/", new UserRoutes().routes);
-        app.use("/", new EmployeeRoutes().routes);
+        // app.use("/", new EmployeeRoutes().routes);
         app.use("/", new VehicleRoutes().routes);
 
 
