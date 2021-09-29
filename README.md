@@ -12,7 +12,8 @@ run npm install
 run ng serve
 
 Application should be running at `http://localhost:4200/`
-
+Username :test@test.com
+Password: admin123
 
 
 # Frontend
